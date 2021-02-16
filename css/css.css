@@ -1,0 +1,375 @@
+
+body,button, input, select, textarea,h1 ,h2, h3, h4, h5, h6 { font-family: Microsoft YaHei,'宋体' , Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;}
+html { 
+    font-size: 16px;
+    
+} 
+body{
+    font-family: "Yusei Magic"; 
+}
+.text-pink {
+    color:#FE7EC9;
+    font-size: 2rem;
+}
+
+.nav-black{
+    color: black;
+    margin-left:15px ;
+}
+.item{
+    color:white;
+}
+
+/*kv*/
+.kv{
+    box-sizing: border-box;
+    width:100vw;
+    height:805px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    margin: auto;
+    margin-bottom: 20px;
+    position: relative;
+    padding-bottom: 50px;
+
+    
+
+}
+.page1{
+    height:1500px;
+    margin-bottom:160px;
+}
+.page2{
+    margin-top:100px;
+}
+
+
+.gradiBox{
+    background: rgb(254,126,201);
+    background: linear-gradient(180deg, rgba(254,126,201,1) 32%, rgba(254,202,2,1) 100% );
+    box-sizing: border-box;
+    width:550px;
+    height:550px;
+    margin-right: 0px;
+    padding-right: 0px;
+   display: inline-block;
+    /*top:220px;
+    left:300px;*/
+}
+#kv{
+position: absolute;
+top:100px;
+left:120px;
+}
+.mainText{
+    width:418px;
+    height:500px;
+    margin-left: 0px;
+    padding-left: 10px;
+    padding-bottom: 70px;
+    box-sizing: border-box;
+    display:inline-block;
+    vertical-align: top;
+    
+    
+
+}
+.cover{
+    margin: auto;
+   height: 600px;
+    box-sizing: border-box;
+    padding-top: 150px;
+    
+}
+.p {
+    box-sizing: border-box;
+    color:rgb(72, 141, 244);
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: inherit;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    margin: 5px 10px;
+    
+}
+#small{
+    font-size: 1.2rem;
+    color: #746b6b;
+    box-sizing: border-box;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    margin-bottom: 0px;
+    margin-top: 3px;;
+}
+.textWrap{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-size: 0.8rem;
+}
+.barBox{
+    position:absolute;
+    bottom:10%;
+    right:10%;
+    display: flex;
+
+}
+.bar{
+    width:15vw;
+    height:30vh;
+    
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    color:#ffffff;
+    font-size: 2.5rem;
+    font-weight: 700;
+
+}
+.bar1{
+background-color:#38c4c1;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-evenly;
+}
+
+.bi-book{
+    color: #ffffff;
+}
+.bar2{
+    background-color:#feca02;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    }
+.bi-lightbulb{
+    color: #ffffff;
+}
+.bar3{
+    background-color:#fe71c9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    }
+.bi-bricks{
+color: #ffffff;
+}
+
+.bar4{
+    background-color:#488df4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    }
+.bi-controller{
+ color:#ffffff
+}
+.bar-m{
+    color:black;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:200px;
+}
+
+
+
+.bar1-m{
+    background-color:#38c4c1;
+}
+.bar2-m{
+    background-color:#feca02;
+
+}
+.bar3-m{
+    background-color:#fe71c9;
+
+}
+.bar4-m{
+    background-color:#488df4;
+
+}
+.gap{
+    background-color: coral;
+    height:200px;
+}
+
+
+
+
+h3{
+    font-size: 2.5rem;
+    font-family: "Yusei Magic"; 
+}
+.text{
+font-size: 1.2rem;
+}
+.page2{
+    background-color: #38c4c1;
+    color: #ffffff;
+    height:40vh;
+}
+.lineB{
+    border-top:solid #ffffff;
+    height:30%;
+
+}
+
+.page3{
+    height:800px;
+}
+.imgB{
+    display: flex;
+    justify-content: center;
+}
+.wow{
+    object-fit: contain;
+    height:500px;
+    padding-bottom: 20px;
+}
+
+
+.kesy{
+    color: #ffffff;
+}
+.key1{
+    font-size: medium;
+}
+.key2{
+    font-size: 30px;
+    font-weight: 700;
+}
+.page4{
+    background-color: #feca02;
+}
+.KF{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.keyb{
+    height:300px;
+    background-color: #ffffff;
+    
+}
+.icBox{
+    display: flex;
+    justify-content: center;
+
+}
+h5{
+    margin: 30px;
+    margin-left: 40px;
+    font-weight: bolder;
+}
+#h5-1{
+    color:palevioletred
+}
+#h5-2{
+    color:skyblue;
+}
+#h5-3{
+    color:green;
+}
+#h5-4{
+    color:rgb(141, 141, 69);
+}
+
+.page5{
+    position: relative;
+   
+
+}
+.page5Text{
+    height:400px;
+}
+.page5B-1{
+    position: relative;;
+    height:700px;
+    
+}
+#sunGlass{
+    position: absolute;
+    top:0px;
+    left:0px;
+    height:500px;
+    width:300px;
+    object-fit: contain;
+    margin-top:70px;
+    margin-left: 30px;
+}
+.colorBox{
+    background-image: linear-gradient(#fe7ec9, #feca02);
+    width:350px;
+    height:300px;
+    z-index: 100;
+    position: absolute;
+    top:250px;
+    right:0px;
+}
+#haBoy{
+    height:400px;
+    width: 400px;
+    object-fit: contain;
+    position: absolute;
+    bottom:100px;
+    right:10px;
+    z-index: 250;
+}
+h4{
+    line-height: 20px;
+    color:rgb(128, 128, 228);
+    font-weight: bolder;
+}
+.page6{
+   
+    height:300px;
+    background-color: rgb(130, 130, 223);
+    color:#ffffff;
+}
+
+.enroll{
+    color: #ffffff;
+    font-weight: bolder;
+    margin: 30px;
+}
+li{
+    margin: 30px;
+}
+.mark{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height:200px;
+}
+
+.page7{
+    background-color: #ffffff;
+}
+.page8{
+    color:white;
+    
+    background-color: rgb(150, 65, 122);
+}
+.con{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height:300px;
+}
+.con2{
+    display: flex;
+    justify-content: center;
+}
